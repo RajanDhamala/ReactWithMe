@@ -14,7 +14,7 @@ if(noAllowed) str+='0123456789'
 if (characterAllowed) str+="!@#$%^&*()-_=+[]{}|;:'\",.<>?/`~"
 
 for(let i=1;i<=length;i++){
-  let char= Math.floor(Math.random()*str.length)
+  let char= Math.floor(Math.random()*str.length) //to select random character from arry
   pass+=str[char]
 
 }setPassword(pass)
