@@ -67,11 +67,10 @@ return (
               SetcharacterAllowed((prevchar)=>!prevchar)
             }}
              />
-             <label htmlFor="" className='text-orange-500'>Character</label>
+             <label htmlFor="" className='text-orange-500'>Characters</label>
            </div>
         </div>
       </div>
     </>
   )}
-
 export default App
