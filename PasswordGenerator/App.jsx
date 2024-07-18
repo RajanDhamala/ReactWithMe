@@ -1,7 +1,6 @@
 import { useState,useCallback,useEffect } from 'react'
 
 function App() {
-
 const [length,setlength]=useState(10)
 const [noAllowed,SetnoAllowed]=useState(false)
 const [characterAllowed,SetcharacterAllowed]=useState(false)
