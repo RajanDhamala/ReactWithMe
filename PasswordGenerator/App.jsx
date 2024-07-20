@@ -1,7 +1,7 @@
 import { useState,useCallback,useEffect } from 'react'
 
 function App() {
-const [length,setlength]=useState(10)
+const [length,setlength]=useState(8)
 const [noAllowed,SetnoAllowed]=useState(false)
 const [characterAllowed,SetcharacterAllowed]=useState(false)
 const [Passowrd,setPassword]=useState()
