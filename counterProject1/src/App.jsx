@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  let [counter,setCounter]=useState(15)
+  let [counter,setCounter]=useState(10)
 
   function addValue(){
   if(counter>=20){
@@ -23,7 +23,7 @@ function App() {
     <>
      <h1>Chai aur React</h1>
      <h2>Counter value:{counter}</h2>
-
+      
      <button onClick={addValue}>increase counter {counter}</button>
      <button onClick={removeValue}>decrease counter {counter}</button>
 
