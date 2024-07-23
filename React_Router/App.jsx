@@ -6,7 +6,6 @@ import About from './components/about'
 import Navbar from './components/Navbar'
 
 function App() {
-
   return (
   <BrowserRouter>
   <h1>header hu meh</h1>
