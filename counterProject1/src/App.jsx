@@ -15,7 +15,7 @@ function App() {
   function removeValue(){
     if (counter<=0){
       alert("click can't be less than zero")
-      setCounter(15)}
+      setCounter(10)}
   else{setCounter(counter -1)
   console.log("count :",counter)}
   }
