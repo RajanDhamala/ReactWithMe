@@ -4,9 +4,7 @@ import TodoForm from './Components/Todoform'
 
 
 function App() {
-  const [todos,setTodos]=useState[]
-
-
+  const [todos,setTodos]=useState['']
   return (
     <>
     <>
