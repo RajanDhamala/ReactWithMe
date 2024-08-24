@@ -1,4 +1,13 @@
+import React,{useState} from "react";
+import { useTodo } from "../Contexts/TodoContext";
+
 function TodoItem({ todo }) {
+    const {todo,setTodo}=useState('')
+    const {addTodo}=useTodo()
+
+    const add=(e)=>{e.preventDefault()
+        if (!todo) return
+    }
     
     return (
         <div
